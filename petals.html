@@ -1,37 +1,123 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Flowers</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Flowers & Buildings</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #f7f3f0;
+            margin: 40px;
+        }
+
+        .section-block {
+            background: white;
+            border-radius: 12px;
+            padding: 24px 32px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .section-title {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Internal CSS - Flowers */
+        p.flower-internal {
+            color: darkorchid;
+            font-weight: bold;
+        }
+
+        h1.flower-internal {
+            color: darkgreen;
+        }
+
+        h3.flower-internal {
+            color: deeppink;
+        }
+
+        /* External CSS - Flowers (simulated) */
+        p.flower-external {
+            color: tomato;
+            text-decoration: underline;
+        }
+
+        h1.flower-external {
+            color: mediumvioletred;
+        }
+
+        h3.flower-external {
+            color: darkorange;
+        }
+
+        /* Internal CSS - Buildings */
+        p.building-internal {
+            color: saddlebrown;
+            font-weight: bold;
+        }
+
+        h1.building-internal {
+            color: darkslateblue;
+        }
+
+        h3.building-internal {
+            color: steelblue;
+        }
+
+        /* External CSS - Buildings (simulated) */
+        p.building-external {
+            color: darkgreen;
+            text-decoration: underline;
+        }
+
+        h1.building-external {
+            color: firebrick;
+        }
+
+        h3.building-external {
+            color: darkorange;
+        }
+    </style>
 </head>
+
 <body>
 
-  <h1 class="main-title">Flowers</h1>
+    <h1 style="text-align:center; color:#555; letter-spacing:2px;">Flowers & Buildings</h1>
 
-  <!-- FLOWERS -->
-  <div class="section-block">
-    <div class="section-title flowers-title">Beautiful Flowers</div>
+    <!-- ══════════════ FLOWERS ══════════════ -->
+    <div class="section-block">
+        <div class="section-title" style="color:#e75480;">Beautiful Flowers</div>
 
-    <p class="p-inline">
-      Roses are one of the most beloved flowers in the world, often given as a symbol of love and admiration. They come in many colors including red, pink, yellow, and white.
-    </p>
-    <p class="flower-internal">
-      Sunflowers are bright and cheerful flowers that always turn their faces toward the sun. They are native to North America and known for their large golden petals surrounding a dark center.
-    </p>
-    <p class="flower-external">
-      Lavender is a fragrant purple flower commonly used in aromatherapy and perfumes. It is known for its calming scent and beautiful violet hues that blanket fields across France and England.
-    </p>
+        <!-- 3 Paragraphs -->
+        <p style="color: royalblue; font-style: italic;">
+            Roses are one of the most beloved flowers in the world, often given as a symbol of love and admiration. They
+            come in many colors including red, pink, yellow, and white.
+        </p>
+        <p class="flower-internal">
+            Sunflowers are bright and cheerful flowers that always turn their faces toward the sun. They are native to
+            North America and known for their large golden petals surrounding a dark center.
+        </p>
+        <p class="flower-external">
+            Lavender is a fragrant purple flower commonly used in aromatherapy and perfumes. It is known for its calming
+            scent and beautiful violet hues that blanket fields across France and England.
+        </p>
 
-    <h1 class="h-inline">Rose</h1>
-    <h1 class="flower-internal">Sunflower</h1>
-    <h1 class="flower-external">Lavender</h1>
+        <!-- 3 H1 Headings -->
+        <h1 style="color: dodgerblue;">Rose</h1>
+        <h1 class="flower-internal">Sunflower</h1>
+        <h1 class="flower-external">Lavender</h1>
 
-    <h3 class="h3-inline">Tulips originally came from Central Asia and Turkey.</h3>
-    <h3 class="flower-internal">Hibiscus is the national flower of Malaysia and South Korea.</h3>
-    <h3 class="flower-external">Daisies symbolize innocence, purity, and new beginnings.</h3>
-  </div>
+        <!-- 3 H3 Headings -->
+        <h3 style="color: coral;">Tulips originally came from Central Asia and Turkey.</h3>
+        <h3 class="flower-internal">Hibiscus is the national flower of Malaysia and South Korea.</h3>
+        <h3 class="flower-external">Daisies symbolize innocence, purity, and new beginnings.</h3>
+    </div>
 
 </body>
+
 </html>
